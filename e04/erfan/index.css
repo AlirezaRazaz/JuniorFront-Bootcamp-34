@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: block;
+  padding: 20px 0;
+}
+.gray {
+  background-color: #ebebeb;
+}
+.beige {
+  background-color: #f9f2db;
+}
+
+.w-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.div-orange {
+  background-color: #f2624f;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.a-orange {
+  background-color: #d8460b;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+.a-orange2 {
+  background-color: #d8460b;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+.black-t {
+  color: black;
+}
+.t-deco {
+  text-decoration: none;
+}
+.li-style {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: end;
+}
+.align-start {
+  align-items: start;
+}
+
+.justify-center {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.gap-5 {
+  gap: 5px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.main .left {
+  padding: 60px;
+}
+.main .left h1 {
+  width: 70%;
+  color: white;
+  font-weight: bold;
+}
+.main .left p {
+  width: 70%;
+  color: white;
+}
+.main .left div {
+  margin-top: 25px;
+}
+.main1 {
+  background-color: #f6f6f2;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+.w-100 {
+  width: 100%;
+}
+.title p,
+.main1 p {
+  color: #929292;
+}
+.section p {
+  text-align: justify;
+  color: #929292;
+}
+.s-orange {
+  color: #d8460b;
+}
+.section ul li {
+  color: #929292;
+}

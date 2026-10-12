@@ -1,0 +1,133 @@
+* { 
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    width: 980px;
+    margin: auto;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box1{
+    background-color: #D8460B;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    
+}
+.link-style{
+    margin-right: 10px;
+    display: flex;
+    
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 25%;
+}
+.hero{
+    background-color: #F2624F;
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 24px;
+    width: 980px;
+    height: 480px;
+    box-sizing: border-box;
+
+}
+.hero-text{
+    width: 50%;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.color{
+    color: white;
+}
+.font-size{
+    font-size: 32px;
+
+}
+.font-p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-co{
+    display: flex;
+    flex-direction: column;
+}
+.hero-btn{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.hero-imge{
+    width: 50%;
+    text-align: right;
+}
+.imge{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.justify-cen{
+    justify-content: start;
+}
+.countries {
+    text-align: center;
+    padding: 30px 0;
+}
+.country-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.country {
+    width: 25%;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #F6F6F2;
+}
+.country-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}    
+.text-al{
+    text-align: left;
+}  
+.bottom-box {
+    background-color: #F9F2DB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin-top: 30px;
+}
+.span-or{
+    color: #D8460B;
+}
+.list{
+    color: #929292;
+}
+.color-foot{
+    background-color: #F6F6F2;
+}
+

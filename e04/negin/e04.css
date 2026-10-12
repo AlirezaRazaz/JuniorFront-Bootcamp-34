@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 980px;
+}
+.get-start {
+  background-color: #d8460b;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border-radius: 12px;
+}
+.anchor {
+  text-decoration: none;
+  color: #d8460b;
+}
+/* ---head--- */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 36px;
+}
+.head-nav {
+  width: 33%;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+/* ---head--- */
+.div-red {
+  width: 58%;
+  padding-top: 121.5px;
+}
+.red {
+  background-color: #f2624f;
+  display: flex;
+  border-radius: 40px;
+  margin-top: 80px;
+  padding-left: 32px;
+}
+.heading-learn {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.p-grow {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.image-man {
+  flex-shrink: 2;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+/* ---red--- */
+.sec-truly {
+  margin-top: 80px;
+}
+.heading-truly {
+  font-size: 30px;
+}
+.p-travel {
+  font-size: 16px;
+  color: #929292;
+}
+.speakers {
+  display: flex;
+  justify-content: space-between;
+}
+.country {
+  background-color: #f6f6f2;
+  border-radius: 24px;
+  text-align: center;
+  padding-right: 8.25px;
+  padding-top: 16px;
+  padding-left: 8.25px;
+  margin-bottom: 80px;
+}
+.p-country {
+  font-size: 20px;
+  font-weight: 700;
+}
+.p-speakers {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ---red--- */
+.sec-ready {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 44px;
+}
+.set-ready {
+  background-color: #f9f2db;
+  min-width: 980px;
+}
+.heading-ready {
+  font-size: 36px;
+}
+.heading-how {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+.p-how {
+  color: #929292;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* ---footer--- */
+.foot {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.p-foot {
+  font-size: 18px;
+  font-weight: 400;
+}
+.set-foot {
+  background-color: #f6f6f2;
+  min-width: 980px;
+}
+.bottom-80 {
+  margin-bottom: 80px;
+}
+.top-80 {
+  margin-top: 80px;
+}

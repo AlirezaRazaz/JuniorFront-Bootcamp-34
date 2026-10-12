@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 980px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 36px;
+  font-size: 18px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.click {
+  background-color: #d8460b;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.hero {
+  background-color: #f2624f;
+  border-radius: 40px;
+  color: white;
+  padding-top: 16px;
+  margin-bottom: 80px;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+}
+.hero-img-wrapper {
+  width: 75%;
+}
+.hero-text-wrapper {
+  flex-grow: 1;
+  margin-left: 32px;
+}
+.title {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.hero-img {
+  margin-bottom: -4px;
+}
+
+.heading_1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.text {
+  color: #929292;
+  font-size: 16px;
+}
+.countries-card {
+  background-color: #f6f6f2;
+  border-radius: 36px;
+  padding: 16px;
+  text-align: center;
+  width: calc((100% - 48px) / 4);
+  margin-top: 12px;
+}
+.countries-sec {
+  display: flex;
+  gap: 16px;
+}
+.countries {
+  margin-bottom: 44px;
+}
+.country-info {
+  opacity: 0.7;
+}
+.country-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+.country-img {
+  margin-bottom: 24px;
+}
+
+.ready {
+  background-color: #f9f2db;
+  margin-bottom: 44px;
+  padding: 56px 0;
+}
+.start-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start {
+  font-weight: 700;
+  font-size: 36px;
+  width: 60%;
+}
+
+.long {
+  margin-bottom: 80px;
+}
+.long-link,
+.common-link {
+  color: #d8460b;
+}
+
+.common {
+  margin-bottom: 44px;
+}
+
+.footer {
+  background-color: #f6f6f2;
+  font-size: 18px;
+  padding: 30px 0;
+}
