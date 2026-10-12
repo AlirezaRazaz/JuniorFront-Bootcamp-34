@@ -25,9 +25,9 @@
     }
   ],
   "students": [
-    { "firstName": "Negar", "pizzaSlices": 2, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "missing" }] },
-    { "firstName": "Amir", "pizzaSlices": 7, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "missing" }] },
-    { "firstName": "Amin", "pizzaSlices": 1, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "missing" }] },
+    { "firstName": "Negar", "pizzaSlices": 2, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "late" }] },
+    { "firstName": "Amir", "pizzaSlices": 8, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "late" }] },
+    { "firstName": "Amin", "pizzaSlices": 1, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "late" }] },
     { "firstName": "Mostafa", "pizzaSlices": 2, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "done" }, { "title": "Flexbox", "status": "done" }] },
     { "firstName": "Sina", "pizzaSlices": 5, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "late" }, { "title": "Flexbox", "status": "done" }] },
     { "firstName": "Mahya", "pizzaSlices": 1, "assignments": [{ "title": "Basic Introduction", "status": "done" }, { "title": "Exhibition Page", "status": "late" }, { "title": "Flexbox", "status": "done" }] },
