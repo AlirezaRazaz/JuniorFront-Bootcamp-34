@@ -1,0 +1,86 @@
+.group-4 {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.top-area {
+  height: 280px;
+  background-color: #3e6bd8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.top-container {
+  width: 980px;
+  padding: 12px;
+  background-color: #ebebeb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.line-one {
+  flex: 1;
+}
+
+.lines {
+  width: 230px;
+}
+
+.middle-area {
+  height: 136px;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-container {
+  width: 980px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bottom-area {
+  min-height: 416px;
+  background-color: #ef476f;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 50px 0;
+}
+
+.bottom-container {
+  width: 980px;
+  padding: 12px;
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.column {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+}
+
+.big-column {
+  flex: 4.25;
+}
+
+.column .box {
+  width: 100%;
+  flex: 1;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

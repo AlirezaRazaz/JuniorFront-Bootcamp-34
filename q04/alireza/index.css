@@ -1,0 +1,36 @@
+.purple {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.purple-item {
+  background-color: black;
+  padding: 1%;
+  display: inline-block;
+  margin: 1%;
+}
+.pink {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  padding: 10%;
+}
+
+.green {
+  background-color: #64a772;
+  color: #323031;
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  flex-direction: column;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+}
+.green-2 {
+  background-color: #64a772;
+  color: #323031;
+  margin: 1%;
+  padding: 1%;
+}

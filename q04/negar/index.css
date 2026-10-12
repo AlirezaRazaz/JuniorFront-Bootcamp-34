@@ -1,0 +1,30 @@
+.box {
+  background-color: #323031;
+  padding: 12px;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 80px;
+  margin: 150px;
+}
+.middle-cont {
+  width: 100%;
+  background-color: #ef476f;
+  display: flex;
+  justify-content: center;
+}
+.white-box {
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+}
+.green {
+  display: flex;
+  justify-content: space-evenly;
+}
