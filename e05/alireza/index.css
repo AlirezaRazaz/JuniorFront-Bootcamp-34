@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+br {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  padding: 72px 0;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4062bb;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.gradient {
+  background-image: linear-gradient(315deg, #59c3c3, #4062bb);
+}
+.gray {
+  background-color: #f2f7f8;
+}
+.blue {
+  background-color: #4062bb;
+}
+.white {
+  background-color: #ffffff;
+  padding: 70px;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.row-revers {
+  flex-direction: row-reverse;
+}
+.align-center {
+  align-items: center;
+}
+.text-align-center {
+  text-align: center;
+}
+.align-end {
+  align-items: end;
+}
+.header-text {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 100%;
+  padding: 40px 0;
+}
+.hero-img {
+  width: 26.4%;
+  height: 539.28px;
+  flex-shrink: 0;
+  margin-bottom: -73.9px;
+}
+.hero-head {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 44px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.hero-content {
+  margin-bottom: 80px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.hero-list {
+  padding: 0;
+  margin: 0;
+}
+.hero-list-item {
+  display: inline-block;
+  list-style: none;
+}
+.hero-list-link {
+  text-decoration: none;
+}
+.hero-list-img {
+  width: 100%;
+  height: 73.9px;
+}
+.featured {
+  display: flex;
+  align-items: center;
+  padding: 36.95px 0;
+}
+.featured-text {
+  color: #00000066;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.featured-img {
+  width: 17.4%;
+  height: 25px;
+  padding: 0 23.6px;
+}
+.amazing {
+  text-align: center;
+}
+.amazing-h {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  letter-spacing: 0;
+}
+.amazing-p {
+  padding: 14px 0 35px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #00000066;
+}
+.amazing-list {
+  padding: 0%;
+  margin: 0%;
+}
+.amazing-list-item {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.amazing-card {
+  padding-inline: 6px;
+  flex-basis: 33%;
+}
+.amazing-list-img {
+  display: inline-block;
+  width: 100%;
+  height: 90px;
+  flex-basis: 33%;
+}
+.amazing-list-h {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.amazing-list-p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #00000066;
+}
+.niloy {
+  padding: 65px 0 65px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.niloy-img {
+  display: block;
+  width: 13%;
+  height: 130px;
+}
+.niloy-name {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.niloy-h {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #4062bb;
+}
+.niloy-p {
+  font-width: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #00000099;
+  margin: 0;
+  padding: 24px 0 24px 0;
+}
+
+.contact-list {
+  padding: 0;
+  margin: 0;
+}
+.contact-list-item {
+  display: inline-block;
+  list-style: none;
+  padding: 15.65px 19px 0 19px;
+}
+
+.contact-list-link {
+  text-decoration: none;
+}
+.contact-list-img {
+  width: 100%;
+  height: 20px;
+}

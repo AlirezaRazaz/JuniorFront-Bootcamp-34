@@ -1,0 +1,35 @@
+* { 
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+}
+.container{
+    width: 1440px;
+    margin:auto;
+}
+.flex{
+    display: flex;
+}
+.hero{
+    background:linear-gradient(#4062BB,#59C3C3);
+    color: white;
+    display: flex;
+    
+    
+
+    
+}
+.p1{
+    font-size: 21px;
+    margin-bottom: 70px;
+}
+.hero-cun{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.pic{
+   
+}

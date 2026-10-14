@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.text-deco {
+  text-decoration: none;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+.gap-24 {
+  gap: 24px;
+}
+.gap-50 {
+  gap: 50px;
+}
+
+.hero {
+  background-image: radial-gradient(circle, #59c3c3, #4062bb);
+  color: white;
+  height: 649px;
+}
+.left-section p {
+  padding-top: 40px;
+  font-size: 21px;
+  margin: 0;
+}
+.left-section .para {
+  width: 452px;
+  height: 258px;
+  margin-top: 167px;
+}
+.left-section .para h1 {
+  font-size: 48px;
+}
+.left-section .para p {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+}
+.right-section img {
+  width: 264px;
+  height: 539px;
+  margin-bottom: -680px;
+}
+.icon-box {
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+.bottom-hero {
+  background-color: #f2f7f8;
+  color: #00000066;
+}
+.section2 {
+  padding: 70px 0;
+}
+.text-box {
+  text-align: center;
+}
+.text-box p {
+  color: #00000066;
+  width: 60%;
+  margin: auto;
+  font-size: 16px;
+}
+.ready-section ul li img {
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+.f-basis-ready {
+  flex-basis: 33.33%;
+}
+.ready-section ul {
+  text-align: center;
+}
+.ready-section ul li p {
+  color: #00000066;
+}
+.ready-section ul li span {
+  font-weight: bold;
+}
+.last-section {
+  background-color: #f2f7f8;
+}
+.last-box {
+  text-align: center;
+  padding: 65px 0 91px 0;
+}
+.last-box img {
+  width: 130px;
+  height: 130px;
+  margin: auto;
+}
+.last-box .person-title {
+  font-weight: bold;
+  padding: 12px;
+}
+.last-box p {
+  font-size: 16px;
+  color: #00000099;
+}
+.f-basis-person {
+  width: 40%;
+  margin: auto;
+  margin-top: 24px;
+}
+footer {
+  background-color: #4062bb;
+  color: white;
+  padding: 100px 0;
+}
+.footer p {
+  text-align: center;
+  margin: 0;
+}
