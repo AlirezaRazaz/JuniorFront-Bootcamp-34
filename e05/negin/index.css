@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 994px;
+  margin: auto;
+}
+.wrapper {
+  display: flex;
+}
+.set-width {
+  min-width: 994px;
+}
+.blue {
+  background: linear-gradient(to right, #4062bb, #59c3c3);
+  /* min-width: 994px; */
+}
+.snapdrop {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 900;
+  padding: 40 0 0 17.5;
+  display: block;
+}
+.heading-ready {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 400;
+  padding: 166.69 266 0 17.5;
+  margin: 0;
+}
+.p-snapdrop {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  padding: 3 266 0 19.3;
+}
+.apps {
+  padding: 5.99 0 79.76 11.5;
+}
+.phone {
+  display: block;
+  padding: 159.79 12.5 0 0;
+}
+.featured {
+  background-color: #f2f7f8;
+}
+.flex {
+  margin-top: -49.93px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 36 323.98 36 10.85;
+}
+.span-featured {
+  color: #00000066;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.white {
+  background-color: #ffffff;
+  text-align: center;
+}
+.heading-amazing {
+  color: #000000;
+  font-size: 38px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 70px;
+}
+.p-amazing {
+  color: #00000066;
+  margin: 0;
+  padding: 14 164.5 35 164.5;
+}
+.amazing-list {
+  list-style: none;
+  display: flex;
+}
+.amazing-item {
+  flex-basis: 35%;
+}
+.amazing-img {
+  /* display: block; */
+}
+.amazing-bold {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12 0;
+}
+.amazing-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.gray {
+  background-color: #f2f7f8;
+  text-align: center;
+}
+.img-niloy {
+  margin-top: 65px;
+}
+.niloy {
+  display: block;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.magazin {
+  display: block;
+  font-size: 17px;
+  font-weight: 400;
+  color: #4062bb;
+  padding: 6 0 24 0;
+}
+.p-niloy {
+  margin: 0;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000099;
+  padding-left: 246.5px;
+  padding-right: 246.5px;
+  padding-bottom: 91px;
+}
+.footer {
+  background-color: #4062bb;
+  text-align: center;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 100 0 31.32 0;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-item {
+  margin: 31.32 38 72.32 38;
+}
