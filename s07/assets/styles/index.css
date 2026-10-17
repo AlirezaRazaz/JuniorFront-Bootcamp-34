@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --gray-900: #333333;
+    --gray-500: #B8B8B8;
+    --gray-200: #F8F8F8;
+    --red: #ff0000;
+
+    --primary: var(--gray-900);
+    --secondary: var(--red);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background: linear-gradient(to left, var(--gray-200) 50%, white 50%);
+}
+
+.container {
+    width: 797px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.gap-100 {
+    gap: 100px;
+}
+.w-50 {
+    width: 50%;
+}
+.list-none {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.align-center {
+    align-items: center;
+}
+.title {
+    font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-orange {
+    --jay: orange;
+    background-color: var(--jay);
+}
+
+.skills-item {
+    padding: 6px 0;
+    gap: 12px;
+}
+.skills-item-title {
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--primary);
+}
+.skills-item-value {
+    gap: 4px;
+    padding-left: 2px;
+    width: 50%;
+}
+.skills-dot {
+    width: var(--size);
+    height: var(--size);
+    display: block;
+    opacity: 25%;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+.skills-dot--active {
+    opacity: 100%;
+}
+
+.skills-progress-wrapper {
+    height: 12px;
+    background-color: #D9D9D9;
+}
+.skills-progress {
+    height: 100%;
+    background-color: var(--primary);
+}
+/* .skills-progress--js {
+    width: 70%;
+}
+.skills-progress--git {
+    width: 90%;
+} */
+
+.interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.interests-item {
+    padding: 6px;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #B8B8B8;
+    text-align: center;
+    text-transform: uppercase;
+}
+.interests-icon {
+    border-radius: 50%;
+    background-color: var(--gray-200);
+    padding: 12px;
+    color: var(--primary);
+}
+
+.foo {
+    margin-top: 100px;
+    --size: 200px;
+    width: var(--size);
+    height: var(--size);
+    font-size: 40px;
+
+    /* border-radius: 5px 50px 100px 0px; */
+    /* border: 10px solid blue; */
+    /* border-left: 10px solid blue; */
+    border-radius: 50px 0 0 50px;
+    /* border-right: dashed 2px green; */
+
+    white-space: nowrap;
+    /* text-overflow: ellipsis; */
+    /* text-overflow: 'و ..'; */
+    /* overflow: hidden; */
+    overflow-x: auto;
+    overflow-y: scroll;
+}
