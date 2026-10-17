@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: #333333;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+
+.page {
+  width: 1440px;
+  margin: auto;
+}
+.page-left {
+  width: 50%;
+  background-color: #f8f8f8;
+  padding-bottom: 43px;
+}
+.page-right {
+  width: 50%;
+}
+.left {
+  width: 350px;
+  margin: 128px 50px 0 auto;
+}
+.right {
+  width: 350px;
+  margin: 240px 0 0 50px;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+.avatar {
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.name {
+  margin: 0;
+  font-size: 40px;
+  color: #333333;
+}
+.first-name {
+  font-weight: 100;
+}
+.last-name {
+  font-weight: 900;
+}
+.role {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #333333;
+}
+.contact {
+  margin-top: 11px;
+  font-size: 16px;
+  color: #b8b8b8;
+}
+.contact-label {
+  width: 40px;
+  font-weight: bold;
+}
+.contact-label-email {
+  width: 52px;
+}
+.social-list {
+  margin-top: 24px;
+  gap: 14px;
+  font-size: 12px;
+  color: #b8b8b8;
+}
+.social {
+  gap: 6px;
+}
+.social-text {
+  width: 67px;
+}
+.social-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.block {
+  margin-bottom: 50px;
+}
+.section-title {
+  margin: 0 0 12px 0;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #000000;
+}
+.section-title-wide {
+  margin-bottom: 15px;
+}
+.section-icon {
+  display: block;
+  margin-bottom: 12px;
+  width: 16px;
+  height: 16px;
+}
+
+.skill {
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.skill-name {
+  width: 100px;
+  font-size: 14px;
+}
+.dots {
+  gap: 4px;
+}
+.dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+.dot-off {
+  background-color: #c7c7c7;
+}
+
+.item {
+  padding: 6px 0 2px 0;
+}
+.item-meta {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+.item-title {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+.edu-title {
+  width: 346px;
+}
+.item-sub {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+.item-text {
+  width: 350px;
+  margin: 11px 0 0 0;
+  font-size: 12px;
+  color: #b8b8b8;
+}
+
+.certificate {
+  margin-bottom: 32px;
+}
+.reference {
+  margin-bottom: 35px;
+}
+
+.interests-list {
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+  list-style: none;
+}
+.interest {
+  width: 60px;
+  padding: 6px 6px 9px 6px;
+  text-align: center;
+}
+.interest-icon {
+  display: block;
+  margin: 0 auto 6px auto;
+  width: 48px;
+  height: 48px;
+  color: #333333;
+}
+.interest-name {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #b8b8b8;
+}

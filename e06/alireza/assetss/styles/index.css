@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    90deg,
+    #fff 0%,
+    #fff 50%,
+    #f8f8f8 50%,
+    #f8f8f8 100%
+  );
+  font-family: "Roboto";
+}
+.b {
+  font-weight: bold;
+}
+.container {
+  width: 800px;
+  margin: auto auto 150px auto;
+}
+
+.container-2 {
+  padding-left: 50px;
+}
+.container-3 {
+  margin: auto;
+  padding-right: 50px;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.inline {
+  display: inline;
+}
+.inline_block {
+  display: inline-block;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+}
+.content {
+  display: flex;
+  align-items: end;
+}
+.name {
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: #333;
+  margin: 0;
+}
+.name_position {
+  background-color: #333333;
+  color: #fff;
+  padding: 4px 16px;
+}
+.last_name {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: 0%;
+}
+.p_list {
+  padding: 0%;
+  margin: 0%;
+}
+.p_list_item {
+  display: inline-block;
+  list-style: none;
+  padding: 12px 0 50px 0;
+}
+
+.p_list_link {
+  text-decoration: none;
+  color: #b8b8b8;
+  margin-right: 14px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+}
+.skills {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 4px;
+}
+.skills_list {
+  padding: 6px;
+  margin: 0;
+  list-style: none;
+  flex-shrink: 0;
+}
+.skills_list_item {
+  padding: 6px;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill_name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  width: 100px;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+.dots {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.active {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  height: px;
+  background-color: #000000;
+  flex-shrink: 0;
+}
+.deactive {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  height: px;
+  background-color: #b8b8b8;
+  flex-shrink: 0;
+}
+.info_1 {
+  padding: 50px 0;
+}
+.experience {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 4px;
+}
+.project {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+}
+.project_2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+}
+.info {
+  color: #b8b8b8;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+.year {
+  color: #b8b8b8;
+  font-size: 14px;
+}
+.uni {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+.bachelor {
+  color: #b8b8b8;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+.cer {
+  padding-top: 50px;
+}
+.certificate {
+  margin: 0;
+  padding: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 4px;
+}
+.contact {
+  padding: 50px 0 100px 0;
+  margin-bottom: -200px;
+  color: #b8b8b8;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.or {
+  font-size: 12px;
+  margin: 0 5px;
+}
+.contact_link {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.certificate_name {
+  margin: 0;
+}
+.padding20 {
+  padding: 20px 0;
+}
+.reference {
+  margin: 0;
+  padding: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 4px;
+}
+.javid_mail {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+.milad_tell {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+.padding60 {
+  padding: 60px 0 0 0;
+}
+.interests_list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: aqua;
+}
+.interests_list_item {
+  background-color: brown;
+  border-radius: 45px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.interests_list_icon {
+  display: block;
+  background-color: #000000;
+}
+.interests_list_name {
+  display: block;
+  background-color: #f8f8f8;
+}
+.box {
+  width: 400px;
+}

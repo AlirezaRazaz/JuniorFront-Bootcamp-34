@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 797px;
+  margin: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f8f8f8 50%, #fff 50%);
+  font-family: Roboto;
+}
+.headings {
+  margin: 0;
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 4px;
+  color: #000000;
+  padding: 50px 0 12px 0;
+}
+.headings-right {
+  margin: 0;
+  font-weight: 700;
+  font-size: 21px;
+  letter-spacing: 4px;
+  color: #000000;
+  padding: 12px 0;
+}
+.flex {
+  display: flex;
+}
+.display-block {
+  display: block;
+}
+.years {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+.font-time-new {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Times New Roman;
+  padding-bottom: 3px;
+  color: #b8b8b8;
+}
+.list-style {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.margin-50 {
+  margin-top: 50px;
+}
+.left {
+  width: 50%;
+}
+.right {
+  padding-top: 240px;
+  padding-left: 50px;
+  width: 50%;
+}
+.img-negin {
+  border-radius: 72.5px;
+  margin: 129px 0 12px 0;
+}
+.heading-negin {
+  margin: 0;
+  padding-bottom: 6px;
+  font-weight: 100;
+  font-size: 40px;
+}
+.heading-bold {
+  font-weight: 900;
+}
+.frontend {
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 2px;
+  padding: 6px 0 12px 0;
+}
+.padding-12 {
+  padding-top: 12px;
+}
+.call-negin {
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #b8b8b8;
+}
+.phone-negin {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 12px;
+  color: #b8b8b8;
+}
+.email-negin {
+  font-weight: 700;
+  font-size: 16px;
+  color: #b8b8b8;
+}
+.email-negin-link {
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 12px;
+  color: #b8b8b8;
+}
+.tell-git {
+  padding-top: 24px;
+}
+.telegram-negin {
+  text-decoration: none;
+  font-size: 12px;
+  color: #b8b8b8;
+}
+.github-negin {
+  text-decoration: none;
+  font-size: 12px;
+  color: #b8b8b8;
+}
+
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills-span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  width: 39.7%;
+}
+
+.experience {
+  color: #b8b8b8;
+}
+.experience-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  font-family: Times New Roman;
+}
+.experience-p {
+  margin: 3px 50px 6px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.university {
+  margin: 3px 0;
+  font-family: Times New Roman;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+}
+.span-sr {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #b8b8b8;
+}
+.link-style {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+.list-interests {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 8px;
+}
+.span-reference {
+  color: #b8b8b8;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Times New Roman;
+}
+.span-interests {
+  color: #b8b8b8;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 2px;
+  margin-top: 6px;
+}
+.img-interests {
+  padding: 12px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: block;
+}

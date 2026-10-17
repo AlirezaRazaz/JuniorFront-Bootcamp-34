@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.list-style {
+  list-style: none;
+}
+.text-deco {
+  text-decoration: none;
+}
+.firstsection {
+  background-color: #f8f8f8;
+  height: 444px;
+}
+.side1 {
+  width: 50%;
+}
+.side2 {
+  width: 50%;
+}
+.desc {
+  padding-top: 90px;
+}
+.desc p {
+  text-align: justify;
+  padding: 30px 0;
+}
+.titles {
+  padding: 130px 0 80 0;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-80 {
+  width: 50%;
+}
+.skills {
+  padding: 50px 0;
+}
+.cert {
+  padding: 50px 0;
+}
+.cert-date,
+.cert-subtitle {
+  color: #b8b8b8;
+}
+.cert-title {
+  font-weight: bold;
+}
+.experience {
+  padding: 40px 0;
+}
+.reference {
+  padding: 40px 0;
+}
+.interests {
+  padding: 40px 0;
+}
+.side1 .desc,
+.side1 .skills,
+.side1 .cert,
+.side2 .titles,
+.side2 .experience,
+.side2 .reference,
+.side2 .interests {
+  width: 350px;
+}
+.link a {
+  color: #b8b8b8;
+}
+.ex-title {
+  font-weight: bold;
+}
+.ex-subtitle,
+.ex-desc {
+  color: #b8b8b8;
+}
+.reference .ref-title,
+.reference .ref-desc {
+  color: #b8b8b8;
+}
+.reference .ref-subtitle {
+  font-weight: bold;
+}
+.interests h3 {
+  padding: 12px 0;
+}
+.interests h6 {
+  text-align: center;
+  color: #b8b8b8;
+  padding-top: 5px;
+}
+.ints {
+  width: 264px;
+}
+.email-info,
+.tel-info {
+  color: #b8b8b8;
+}
