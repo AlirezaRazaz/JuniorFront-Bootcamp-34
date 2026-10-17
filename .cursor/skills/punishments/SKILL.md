@@ -19,9 +19,13 @@ Each failed rule adds one punishment per student:
 2. all `img` tags should have `alt` attribute
 3. there should be `* {box-sizing: border-box}` present in the project
 4. there should not be any other rules other than `width: xxx` and `margin: auto` on `.container` class
+5. color values must not be used directly. Every color must be declared as a
+   custom property on `:root` and used from there with `var(--name)`
 
 Count a rule only once per student, even when it has multiple violations. A
-student can therefore receive at most four code punishments for one assignment.
+student can therefore receive at most five code punishments for one assignment.
+Rule 5 starts after e06. Do not apply it when auditing e06 or any earlier
+assignment.
 
 Interpret the rules literally:
 
@@ -30,9 +34,26 @@ Interpret the rules literally:
 - A `.container` rule must contain exactly one `width` declaration and one
   `margin: auto` declaration. Any other declaration, including padding,
   `display`, or `margin: 0 auto`, fails rule 4.
+- A color value is a hex color, a color function (`rgb`, `rgba`, `hsl`,
+  `hsla`, `hwb`, `lab`, `lch`, `oklab`, `oklch`, `color`, `color-mix`), or a
+  CSS named or system color, including `transparent`. `currentcolor`,
+  `inherit`, `initial`, `unset`, `revert`, and `revert-layer` are not color
+  values.
+- The only legal place for a color value is the value of a custom property
+  (`--*`) in a rule whose selector is exactly `:root`. A raw color on any
+  other declaration fails, including a non-custom property inside `:root`, a
+  custom property on any other selector, a `var()` fallback, a gradient, a
+  shadow, or a shorthand such as `border`.
+- Using `var(--name)` satisfies the rule. A project with no color values
+  passes rule 5.
+- Color utilities and arbitrary color classes (`bg-white`, `text-black`,
+  `bg-red-500`, `text-[#333]`) are direct color values and fail rule 5.
+  Presentational color attributes in authored HTML (`color`, `bgcolor`,
+  `fill`, `stroke`) fail too. Colors inside standalone SVG or image assets
+  do not.
 - Check authored HTML and CSS anywhere inside the student's assignment folder,
-  including `<style>` blocks. Do not treat utility classes or browser defaults
-  as substitutes.
+  including `<style>` blocks and `style` attributes. Do not treat utility
+  classes or browser defaults as substitutes.
 - Ignore `_ref/`, generated dependencies, and instructor-provided
   `DO_NOT_CHANGE.css` files.
 
@@ -48,10 +69,10 @@ Interpret the rules literally:
    and ask the user which of them informed the user. Do not infer this from
    assignment status or prior data.
 6. Do not punish missing students who informed the user. Add one punishment to
-   each missing student who did not inform the user. Do not also apply the four
-   code rules to a missing submission.
-7. Audit each submitted project against all four rules. Record file and line
-   evidence for every failure.
+   each missing student who did not inform the user. Do not also apply the code
+   rules to a missing submission.
+7. Audit each submitted project against every rule that applies to that
+   assignment. Record file and line evidence for every failure.
 8. Present a concise proposed result showing each student, failed rule numbers,
    missing-submission status, and punishment increment.
 9. Update only `pizzaSlices` in `landing/public/data.json`, preserving its
