@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gray: #919191;
+    --white: #fff;
+
+    --red: #f9171b;
+    --orange: #ff9e01;
+    --yellow: #fdea3a;
+    --green: #00e504;
+    --cyan: #00a5fb;
+    --blue: #1b76e1;
+    --violet: #8505ba;
+
+    --bow-width: 25px;
+    --scene-bg: var(--white);
+    --scene-size: calc(var(--bow-width) * 8 * 2);
+}
+
+.scene {
+    border: solid 2px var(--gray);
+    background-color: var(--scene-bg);
+    width: 700px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.rainbow {
+    background-color: var(--scene-bg);
+    width: var(--scene-size);
+    height: calc(var(--scene-size) / 2);
+    overflow: hidden;
+}
+.bow {
+    border-radius: 50%;
+}
+.bow--red {
+    background-color: var(--red);
+    color: var(--red);
+}
+.bow--orange {
+    background-color: var(--orange);
+    color: var(--orange);
+}
+.bow--yellow {
+    background-color: var(--yellow);
+    color: var(--yellow);
+}
+.bow--green {
+    background-color: var(--green);
+    color: var(--green);
+}
+.bow--cyan {
+    background-color: var(--cyan);
+    color: var(--cyan);
+}
+.bow--blue {
+    background-color: var(--blue);
+    color: var(--blue);
+}
+.bow--violet {
+    background-color: var(--violet);
+    color: var(--violet);
+}
+.bow--white {
+    background-color: var(--scene-bg);
+    color: var(--scene-bg);
+}
+
+.rainbow--padding .bow {
+    padding: var(--bow-width);
+}
+.rainbow--border .bow {
+    border: solid var(--bow-width);
+}
+
+.rainbow--gradient {
+    background: radial-gradient(
+        var(--scene-bg) calc(var(--bow-width) * 0), var(--scene-bg) calc(var(--bow-width) * 1),
+        var(--violet) calc(var(--bow-width) * 1), var(--violet) calc(var(--bow-width) * 2),
+        var(--blue) calc(var(--bow-width) * 2), var(--blue) calc(var(--bow-width) * 3),
+        var(--cyan) calc(var(--bow-width) * 3), var(--cyan) calc(var(--bow-width) * 4),
+        var(--green) calc(var(--bow-width) * 4), var(--green) calc(var(--bow-width) * 5),
+        var(--yellow) calc(var(--bow-width) * 5), var(--yellow) calc(var(--bow-width) * 6),
+        var(--orange) calc(var(--bow-width) * 6), var(--orange) calc(var(--bow-width) * 7),
+        var(--red) calc(var(--bow-width) * 7), var(--red) calc(var(--bow-width) * 8),
+        var(--scene-bg) calc(var(--bow-width) * 8)
+    );
+    background-size: var(--scene-size) var(--scene-size);
+    background-repeat: no-repeat;
+}
